@@ -16,6 +16,6 @@ step 4: run and use the system
 
 NB: in the student folder there are two files AGENCYR.TTF and BRUSHSCI.TTF, so to use the system with out error you should be correct the path of the two fonts in the file view_certificate.php and view_credential.php.
 
-- if you have any question you can contact me with my email address : fuye460@gmail.com  OR fuadmanaye15@gmail.com
+- if you have any question you can contact me with my email address : fuye460@gmail.com  Or fuadmanaye15@gmail.com
   
 
