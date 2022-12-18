@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgb(167, 168, 164); */
+    background: linear-gradient(to right, #b2b6b2, #606160);
+}
+.menu-bar{
+    background: rgb(218, 224, 219);
+    text-align:center;
+}
+.welcome{
+    color:black;
+    background-color:#12a9c4;
+    border-radius: 8px;
+}
+.welcome:hover{
+    background-color:#12a9c4;
+}
+.menu-bar .welcome{
+    margin-right: 250px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:rgb(236, 226, 226);
+}
+.menu-bar ul li{
+    margin:10px;
+    padding:10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.menu-bar ul li:hover{
+    background: #adc0a9;
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(123, 151, 123);
+    margin-top: 11px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width:150px;
+    padding:10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:#b2ff00;
+}
+.fa-angle-right{
+    float: right;
+}

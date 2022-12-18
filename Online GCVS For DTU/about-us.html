@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-Us Page</title>
+    <link rel="stylesheet" href="about-us1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read More";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="department.html">DEPARTMENTS</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="./MainPage/index.php">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Who built the system</h1>
+    </section>
+
+
+    <!------------- about us content ------------->
+
+    <section class="aboutus">
+        <div class="title">
+            <h1>About Us</h1>
+        </div>
+        <div class="aboutus-row">
+            <div class="aboutus-col">
+                <h3>We are fourth-year computer science students at Debre Tabor University.Therefore, as
+                    graduates this year, we have tried to create a new system to prevent the spread of
+                    forged certificates in our country.</h3>
+                <p>This website is designed for graduates in debretabor university regualr students,
+                    and the purpose of this website is to enable graduates to easily
+                    take their certificates and acadamic credentials online at any where. <span id="dots"></span><span
+                        id="more"><br><br>
+                        This site allows graduates to download their certificates and full education information online.
+                        This website is also very useful for companies. The reason for this is that companies can hire
+                        students
+                        online by looking at graduates' credentials. </span>
+                </p>
+                <button onclick="myFunction()" id="myBtn" class="form">Read More</button>
+            </div>
+            <div class="image-section">
+                <img src="images/about-us.png">
+            </div>
+        </div>
+
+    </section>
+
+    <!------------- End of about us content ------------->
+
+
+
+    <!-------------- footer section ------------------->
+
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>If you have any general information as well as any ideas or comments, please contact us at the links below
+        </p>
+        <div class="icons">
+            <a href=""><img src="images/facebook.png" alt=""></a>
+            <a href=""><img src="images/telegram.png" alt=""></a>
+            <a href=""><img src="images/instagram.png" alt=""></a>
+            <a href=""><img src="images/twitter.png" alt=""></a>
+        </div>
+        <p>Made By<i class="fa fa-heart-o"></i> CS Group 6 Students</p>
+    </section>
+
+    <!-------------- End of footer section ------------------->
+
+
+
+    <!------JavaScript for Toggle Menu-------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

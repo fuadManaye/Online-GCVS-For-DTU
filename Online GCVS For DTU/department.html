@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Page</title>
+    <link rel="stylesheet" href="department.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="#">DEPARTMENTS</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="./MainPage/index.php">LOGIN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our Departments</h1>
+    </section>
+
+    <!-------- Course ------->
+    <section class="department">
+        <h1>Departments We Offer</h1>
+        <p> The Debre Tabor University (DTU) management has released the complete list of department offered
+            for applicants who want to apply and study at the University. This is the full list of accredited
+            department offered at the Debre Tabor University (DTU).
+            These departments or Academic Programmes are meant to train prospective applicants into future leaders to
+            manage the affairs of Africa and the World at large.</p>
+
+        <div class="department-row">
+            <div class="department-col">
+                <p><b>Faculty of Technology</b><br>
+                    - Computer Science<br>
+                    - Information Thechnology<br>
+                    - Electrical and Computer Engineering<br>
+                    - Chemical Engineering<br>
+                    - Electro Mechanical Engineering<br>
+                    - Mechanical Engineering<br>
+                    - Civil Engineering<br>
+                    - Hydraulics and Water Engineering<br>
+                    <b>Faculty of Social and Humanities</b><br>
+                    - Civics and Ethical Studies<br>
+                    - History and Heritage Managment<br>
+                    - Geography and Environmental Science<br>
+                    - English Language and Litrature<br>
+                    - Amharic Language and Litrature<br>
+                    - Psychology<br>
+                    - Sociology<br>
+                    - Special Needs<br>
+                    - Theatre Arts<br>
+                    - Law<br>
+                    - ECCE<br>
+                    <b>Faculty of Natural and Computational Sciences</b><br>
+                    - Biology <br>
+                    - Chemistry<br>
+                    - Mathematics<br>
+                    - Physics<br>
+                    - Statistics<br>
+                    <b>Faculty of Business and Economics</b><br>
+                    - Accounting and Finance<br>
+                    - Economics<br>
+                    - Management<br>
+                    - Turism and Hotel Managment<br>
+                    <b>College of Health Science</b><br>
+                    - Psychatry<br>
+                    - Ansthesia<br>
+                    - Internal<br>
+                    - Surgery<br>
+                    - Pediatrics<br>
+                    - Gynaecology<br>
+                    - Obsthetrics<br>
+                    - Neonatal and Pediatrics nursing<br>
+                    - Medical labratory Science<br>
+                    - Midwifery<br>
+                    - Nursing<br>
+                    - Pharmacy<br>
+                    - Health Informatics<br>
+                    <b>Faculty of Agriculture and Environmental Science</b><br>
+                    - Agro Economics<br>
+                    - Animal Science<br>
+                    - Forestry<br>
+                    - Horticulture<br>
+                    - NARM<br>
+                    - Plant Science<br>
+                    - Veternary Science
+                </p>
+            </div>
+            <div class="department-col">
+                <h3>Masters Programmes</h3>
+             <p>- Financial Accounting<br>
+                - Developmental Economics<br>
+                - MBA<br>
+                - Botany<br>
+                - TEFL<br>
+                - Geography and Environmental Studies<br>
+                - Hydraulics
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------- footer section ------------------->
+
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>If you have any general information as well as any ideas or comments, please contact us at the links below
+        </p>
+        <div class="icons">
+            <a href=""><img src="images/facebook.png" alt=""></a>
+            <a href=""><img src="images/telegram.png" alt=""></a>
+            <a href=""><img src="images/instagram.png" alt=""></a>
+            <a href=""><img src="images/twitter.png" alt=""></a>
+        </div>
+        <p>Made By<i class="fa fa-heart-o"></i> CS Group 6 Students</p>
+    </section>
+
+    <!--------------- End of footer section ------------------->
+
+
+
+
+
+
+
+
+
+    <!------JavaScript for Toggle Menu-------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>

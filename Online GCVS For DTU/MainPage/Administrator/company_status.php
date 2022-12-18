@@ -1,0 +1,31 @@
+<?php
+include 'config.php';
+if(isset($_GET['status']))
+{
+    $status=$_GET['status'];
+    $select_status=mysqli_query($con,"select * from company where company_id='$status'");
+    while($row=mysqli_fetch_object($select_status))
+    {
+        $st=$row->status;
+        if($st=='0')
+        {
+            $status2=1;
+        }
+        else
+        {
+            $status2=0;
+        }
+        $update=mysqli_query($con,"update company set status='$status2' where company_id='$status' ");
+        if($update)
+        {
+            header("Location:manage_company.php");
+        }
+        else
+        {
+            echo mysqli_error();
+        }
+    }
+    ?>
+    <?php
+    }
+?>

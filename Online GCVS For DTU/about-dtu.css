@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 60px;
+    margin-left: -70px;
+    margin-bottom: 150px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #30c6da;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+nav .fa {
+    display: none;
+}
+@media(max-width:700px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+}
+
+/*-------- Css for about dtu section --------------*/
+
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.row-dtu{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-header h1 {
+    margin-top: -120px;
+}
+
+.row-dtu {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-dtu {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    font-size:20px;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    margin:20px;
+}
+#more {
+    display: none;
+}
+
+#more {
+    display: none;
+}
+.form {
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 3px 12px;
+    background-color: #88941e;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.form:hover {
+    color: #fff;
+    background-color: #f28f92;
+    transition: 1s ease;
+}
+
+/*-------- End of css for about dtu section --------------*/
+
+/*-------- Css for footer section --------------*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.footer h4 {
+    font-size:20px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+/*-------- End of css for footer section --------------*/

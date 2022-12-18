@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(to right, #c9cec9, #606160);
+}
+h1{
+    margin-top:20px;
+    font-family: Lobster;
+    text-align:center;
+    font-size:30px;
+}
+.sty{
+    margin-left:500px;
+    margin-top:60px;
+    margin-bottom:-20px;
+}
+table{
+    margin-left:20px;
+    margin-top:50px;
+}
+table tr td{
+    background-color:rgb(196, 212, 193);
+    border-radius: 5px;
+    color:rgb(43, 110, 112);
+}
+table tr th{
+    font-weight: bold;
+    color:rgb(24, 18, 51);
+    border-radius: 5px;
+    background-color:dimgray;
+}
+table tr td a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(29, 15, 219);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    background-color:lightsteelblue;
+    position: relative;
+    cursor: pointer;
+    margin-left:2px;
+    margin-right: 2px;
+    margin:3px;
+}
+
+table tr td a:hover{
+    border: 1px solid #d3918c;
+    background: #1ea4da;
+    transition: 1s;
+}
+table tr td button{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(29, 15, 219);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    background-color:lightsteelblue;
+    position: relative;
+    cursor: pointer;
+    margin-left:2px;
+    margin-right: 2px;
+}
+table tr td button:hover{
+    border: 1px solid #d3918c;
+    background: #1ea4da;
+    transition: 1s;
+}
+form{
+    color:rgb(51, 166, 211);
+    padding:5px;
+}
+.form{
+    background: linear-gradient(to right, #c9cec9, #606160);
+    border-radius: 10px;
+    background: linear-gradient(to right, #c9cec9, #606160);
+    margin-top:-20px;
+}
+form table tr td{
+    padding:8.5px;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+     border: 1px solid rgb(207, 85, 85);
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #d3918c;
+    background: #8cbccf;
+    transition: 1s;
+}

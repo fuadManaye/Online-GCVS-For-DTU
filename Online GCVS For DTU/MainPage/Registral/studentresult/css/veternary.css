@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to right, #c9cec9, #606160);
+}
+form{
+    text-align:center;
+    margin:80px;                
+}
+#upload{
+    padding:5px;
+    background:#bec8c9;
+    border:2px solid #142425;
+    border-radius: 10px;
+}
+#upload:hover{
+    color:rgb(47, 70, 202);
+}
+form h2{
+    font-size:16px;
+}
+form h3{
+    font-size:14px;
+    font-weight:bold;
+}
+p{
+    margin-left:10px;
+    font-family: Lobster;
+}

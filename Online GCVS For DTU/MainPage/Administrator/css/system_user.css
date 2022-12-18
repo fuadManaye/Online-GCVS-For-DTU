@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(167, 168, 164);
+}
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.green{
+    background-color: #199319;
+}
+.red{
+    background-color: red;
+}
+table tr th{
+    font-weight: bold;
+    color:rgb(24, 18, 51);
+    border-radius: 5px;
+    background-color:dimgray;
+}
+table tr td {
+    background-color:rgb(196, 212, 193);
+    border-radius: 5px;
+    color:rgb(43, 110, 112);
+}
+.div{
+    margin-left:100px;
+    font-family:'sans-serif';
+}
+h4{
+    font-size:18px;
+    margin-right:1200px;
+    margin-top:60px;
+    color: rgb(30, 46, 48);
+    font-family:Lobster;
+    text-align: center;
+}

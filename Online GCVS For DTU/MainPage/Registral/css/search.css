@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(167, 168, 164);
+}
+form{
+    margin-top: 70px;
+    float: left;
+}
+form h1{
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(30, 46, 48);
+    display: flex;
+    font-family:Lobster;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#submit{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(29, 15, 219);
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 13px;
+    background: transparent;
+    background-color:lightsteelblue;
+    position: relative;
+    cursor: pointer;
+    margin-left:2px;
+    margin-right: 2px;
+}
+#submit:hover{
+    border: 1px solid #d3918c;
+    background: #1ea4da;
+    transition: 1s;
+}
+table{
+    margin-left:150px;
+    margin-top: 100px;
+    width:95px;
+}
+table tr th{
+    font-weight: bold;
+    color:rgb(24, 51, 18);
+    border-radius: 5px;
+    background-color:dimgray;
+}
+table tr td {
+    background-color:rgb(196, 212, 193);
+    border-radius: 5px;
+    color:rgb(43, 110, 112);
+}
+table tr td a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(29, 15, 219);
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    background-color:lightsteelblue;
+    position: relative;
+    cursor: pointer;
+    margin-left:2px;
+    margin-right: 2px;
+}
+
+table tr td a:hover{
+    border: 1px solid #d3918c;
+    background: #1ea4da;
+    transition: 1s;
+}
+
+    

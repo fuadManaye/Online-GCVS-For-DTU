@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(167, 168, 164);
+}
+.div{
+    margin-left:120px;
+    margin-top:20px;
+}
+table tr th{
+    font-weight: bold;
+    color:rgb(24, 18, 51);
+    border-radius: 5px;
+    background-color:dimgray;
+}
+table tr td {
+    background-color:rgb(196, 212, 193);
+    border-radius: 5px;
+    color:rgb(43, 110, 112);
+}
+table tr td a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(29, 15, 219);
+    border-radius: 8px;
+    padding: 2px 12px;
+    font-size: 13px;
+    background: transparent;
+    background-color:lightsteelblue;
+    position: relative;
+    cursor: pointer;
+    margin-left:4px;
+    margin-right: 4px;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+
+table tr td a:hover{
+    border: 1px solid #d3918c;
+    background: #1ea4da;
+    transition: 1s;
+}
+p{
+    margin-left:14px;
+    margin-top:10px;
+}
+    

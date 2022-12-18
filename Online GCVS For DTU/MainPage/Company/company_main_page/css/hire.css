@@ -1,0 +1,41 @@
+form{
+    margin-left:450px;
+    margin-top:80px;
+    color:rgb(228, 235, 236);
+    padding:5px;
+}
+form h1{
+    width: 80%;
+    margin: 18px auto;
+    color: rgb(30, 46, 48);
+    display: flex;
+    align-items: center;
+    font-family:Lobster;
+}
+.form{
+    border:1px solid rgb(218, 224, 219);
+    border-radius: 10px;
+    margin-right: 800px;
+    background-color: rgb(120, 128, 119);
+}
+table tr td{
+    padding:8.5px;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(214, 245, 245);
+     border: 1px solid rgba(1, 64, 94, 0.575);
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #d3918c;
+    background: #8cbccf;
+    transition: 1s;
+}

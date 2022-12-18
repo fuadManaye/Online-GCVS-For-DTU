@@ -1,0 +1,100 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(167, 168, 164);
+}
+form{
+    margin-left:350px;
+    margin-top:2px;
+    color:rgb(51, 166, 211);
+    padding:5px;
+}
+form h1{
+    width: 50%;
+    margin: 40px auto;
+    color: rgb(30, 46, 48);
+    display: flex;
+    align-items: center;
+    font-family:Lobster;
+}
+.form{
+    border:1px solid rgb(218, 224, 219);
+    border-radius: 10px;
+    margin-right: 800px;
+    background-color: rgb(204, 233, 200);
+}
+table tr td{
+    padding:8.5px;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(219, 57, 57);
+    border: 1px solid rgb(207, 85, 85);
+    border-radius: 10px;
+    padding: 4px 12px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #d3918c;
+    background: #8cbccf;
+    transition: 1s;
+}
+#side-bar-right{
+    height:100%;
+    width: 20%;
+    float: right;
+    color:brown;
+    font-family: Lobster;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table{
+    margin-left:100px;
+    margin-top:20px;
+}
+table tr th{
+    font-weight: bold;
+    color:rgb(24, 18, 51);
+    border-radius: 5px;
+    background-color:dimgray;
+}
+table tr td {
+    background-color:rgb(196, 212, 193);
+    border-radius: 5px;
+    color:rgb(43, 110, 112);
+}

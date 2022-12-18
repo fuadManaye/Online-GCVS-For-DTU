@@ -1,0 +1,16 @@
+.help h3{
+    float:left;
+    font-family: Lobster;
+    margin-top:60px;
+    margin-left:300px;
+    color:rgb(190, 21, 21);
+    font-size:26px;
+}
+.help h2{
+    float:left;
+    font-family: Lobster;
+    margin-top:150px;
+    margin-left:-300px;
+    font-size:18px;
+    color:rgb(18, 27, 27);
+}
