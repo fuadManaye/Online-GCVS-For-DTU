@@ -4,7 +4,7 @@
   certificate records considering the problems faced by doing this manually. This system has enables   
   us to perform give certificate and credential to Debretabor University students.
   
-#How to Use/Run this project
+# How to Use/Run this project
 
 step 1: downlod and extract the file
 
