@@ -1,8 +1,5 @@
 # Online-GCVS-For-DTU (  Online Graduate Credential Verification System For Debretabor University)
-- The system I developed is an online graduate credential verification system for Debretabor University. 
-  This system is a system that helps students to take their education and certificates wherever they are.also, 
-  this system is very useful for organizations. This is a system that facilitates the way that the company can call 
-  the students who it thinks are the best students to  work there, using this system.
+- The system I developed is an online graduate credential verification system for Debretabor University.This system is a system that helps students to take their education and certificates wherever they are.also,this system is very useful for organizations. This is a system that facilitates the way that the company can call the students who it thinks are the best students to  work there, using this system.
   
 # How to Use/Run this project
 
